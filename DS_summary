@@ -1,0 +1,59 @@
+1 array questions:
+(1) two pointers
+two pointer mid level problem:
+80. Remove Duplicates from Sorted Array II
+
+can be two pointer like: left, right
+can be like: slow, fast
+
+(2) binary search
+(3) greedy
+(4) matrix:
+mat = [[0 for j in range(m)] for i in range(n)]
+(5)DP [might be the most chanllenging to me so far]
+(6) Math
+(7) use extra array to keep record:
+73. Set Matrix Zeroes
+(8) recursion
+78 subsets  (use index like "curPos" for tracking)
+（9） sort
+56. Merge Intervals
+intervals.sort(key=lambda x: x.start)
+
+
+use 
+array
+dictionary
+variables 
+matrix
+
+maybe (linkedlist,binary tree)
+to save extra info
+
+
+
+2 string questions:
+(1) string reform
+6 zigzag conversion
+8 string to integer
+(2) use string as int, and make arithmetical operation
+(3) Palindrome: 
+5	Longest Palindromic Substring
+125 Valid Palindrome
+（4）classify strings
+49. Group Anagrams
+(5) string with stack:
+71. Simplify Path
+20	Valid Parentheses
+（6）transfer from one type to another:
+	12	Integer to Roman
+273	Integer to English Words
+（7） reverse twice:
+first reverse part, then reverse whole:
+186. Reverse Words in a String II
+（8） DP:
+91. Decode Ways
+(9) check if one string's substring an be another input string
+use moving window as the range:
+28. Implement strStr()
+3. Longest Substring Without Repeating Characters
